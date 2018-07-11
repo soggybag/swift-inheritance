@@ -115,8 +115,7 @@ elrond.melee()
 var george = Fighter(name: "George", battleCry: "Arrr!")
 george.melee()
 
-// This working really good so far. We need to add some detail. Fighters should have a battle cry. 
-// This is something they say when they melee(). The problem is the fighter is not using the battleCry!
+// Now that the fighter has a battle cry they should use it when they attack.
 
 // - Challenge: 
 

@@ -117,11 +117,13 @@ elrond.melee()
 
 // - Challenge: 
 
-// Write a protocol extension for Fights that defines a default implementation of the melee() method. 
+// Write a protocol extension for Fights that defines a default implementation of the
+// melee() method.
 
 // - Challenge: 
 
-// Write a protocol extension for Casts that defines a default implementation of the castSpell() method().
+// Write a protocol extension for Casts that defines a default implementation of the
+// castSpell() method().
 
 
 

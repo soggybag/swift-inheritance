@@ -108,7 +108,8 @@ var elrond = Elf(name: "Elrond")
 elrond.castSpell()
 elrond.melee()
 
-// This is working really good so far. We need to add some detail. Fighters should have a battle cry.
+// This is working really good so far. We need to add some detail. Fighters should have
+// a battle cry.
 // This is something they say when they melee(). 
 
 // - Challenge: 
@@ -117,14 +118,14 @@ elrond.melee()
 
 // - Challenge: 
 
-// Modify the initializer for Fighter to accept a parameter and use that to set the value for the new 
-// property. Give this parameter a default value of "" (empty string).
+// Modify the initializer for Fighter to accept a parameter and use that to set the value
+// for the new property. Give this parameter a default value of "Huzzah!".
 
 // ** Do not set the default value in the property declaration
 // ** Do not use an optional or implicitly unwrapped optional. 
 // In other words these are not allowed: 
 
-// var battleCry = ""
+// var battleCry = "Huzzah"
 // or 
 // var battleCry: String!
 
