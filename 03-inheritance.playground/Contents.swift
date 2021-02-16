@@ -74,9 +74,12 @@ class Elf: Player {
 // Elves cast spells and use swords?
 // We can only inherit from one super class Spellcaster or Fighter, not both.
 
-// We move castSpell and melee methods up to Player.
+// The problems:
+
+// You need to move castSpell and melee methods up to Player.
 //      In this case we end up with classes that have more functionality than they need.
-//      Fighters cast Spells and Wizards melee. 
+//      Fighters cast Spells and Wizards melee.
+
 // Or, we make another subclass that casts spells and melees. 
 //      In this case we duplicate functionality, more than one class casts spells
 //      and melees.

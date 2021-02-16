@@ -112,6 +112,7 @@ elrond.melee()
 // - Challenge: 
 
 // When a Priest casts a spell the message displayed should say: "\(name) heals the party!"
+
 // Override the default implementation of castSpell() in the Priest class to make this
 // happen. 
 
