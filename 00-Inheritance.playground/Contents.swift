@@ -11,6 +11,9 @@ import Foundation
 // var hitPoints: Int
 // var name: String
 
+// Player should also implement an adventure method.
+// This method should print "\(name) goes adventuring!"
+
 // # Challenge:
 
 // Define a class Fighter. It should be a sub class 

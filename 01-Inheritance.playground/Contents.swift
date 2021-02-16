@@ -13,7 +13,7 @@ class Player {
     }
     
     func adventure() {
-        print("\(name) Goes adventuring!")
+        print("\(name) goes adventuring!")
     }
 }
 
