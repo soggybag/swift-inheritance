@@ -107,8 +107,24 @@ var elrond = Elf(name: "Elrond")
 
 // - Challenge: 
 
-// Define two protocols Casts, and Fights. Casts should define the castSpell() method. 
-//  And, Fights should define the melee() method. 
+// Define two protocols Casts, and Fights. Casts should define the 
+// castSpell() method. And, Fights should define the melee() method. 
+
+// A protocol looks liek this: 
+
+protocol Casts {
+  func castSpell()
+}
+
+// Defining a protocol is like defining a class with the difference that 
+// you do not define the code for a method. The protocol above is 
+// complete! castSpell() is a method that takes new parameters and
+// returns nothing. 
+
+// Since the protocol doesn't define any code, a class that adopts
+// the protocol must implement the method itself! 
+
+// https://docs.swift.org/swift-book/LanguageGuide/Protocols.html
 
 // - Challenge: 
 
