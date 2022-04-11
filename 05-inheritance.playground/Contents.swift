@@ -116,11 +116,19 @@ elrond.melee()
 // Override the default implementation of castSpell() in the Priest class to make this
 // happen. 
 
+// Notice!
+// - Fighter, Wizard, Priest, and Elf inherit from Player
+//   - name
+//   - hitpoints
+//   - adventure
 
+// - Fighter and Elf must implement the melee method because
+//   they have adopted the Fights protocol! This means:
+//   - They must implement a melee() method that matches
+//     the description in the protocol: it takes no parameters
+//     and returns nothing.
 
-
-
-
-
-
-
+// - Wizard, Priest, and Elf must implement a castSpellmethod
+//   because these classes have adopted the Casts protocol.
+//   - This means they must implement a castSpell() method
+//     that takes no parameters and returns nothing. 
