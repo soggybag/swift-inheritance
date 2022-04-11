@@ -113,8 +113,8 @@ elrond.melee()
 
 // When a Priest casts a spell the message displayed should say: "\(name) heals the party!"
 
-// Override the default implementation of castSpell() in the Priest class to make this
-// happen. 
+// Overwrite the default implementation of castSpell() in the Priest class by adding a 
+// castSpell() method to the Priest class. 
 
 // Notice!
 // - Fighter, Wizard, Priest, and Elf inherit from Player
