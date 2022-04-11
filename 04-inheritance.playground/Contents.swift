@@ -125,6 +125,26 @@ elrond.melee()
 // Write a protocol extension for Casts that defines a default implementation of the
 // castSpell() method().
 
+// Write a protocol extension for Casts that defines a default implementation of the
+// castSpell() method().
+
+// Write an extension like this:
+
+protocol Fights {
+    var name: String { get } // Define property and type here
+    func melee() // Define the signature of a method here
+}
+
+extension Fights {
+  func melee() { // Implement the method in the extension
+      // Since you're using a property it needs to be in the protocol
+      print("\(name) Attacks with Sword!")
+  }
+}
+
+// Read more about Extensions here:
+// https://docs.swift.org/swift-book/LanguageGuide/Extensions.html
+
 
 
 
