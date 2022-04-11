@@ -41,7 +41,7 @@ class Wizard: Player {
     }
     
     func castSpell() {
-        print("Do magic stuff")
+        print("\(name) casts a spell")
     }
 }
 
@@ -54,7 +54,7 @@ class Priest: Player {
     }
     
     func castSpell() {
-        print("Do magic stuff")
+        print("\(name) casts a spell")
     }
 }
 
@@ -71,7 +71,7 @@ var joe = Fighter(name: "Frank")
 joe.melee()
 
 
-// This is working but I have duplicated code for Priest and Wizard, they both define the castSpell() method. 
+// This is working but you have duplicated code for Priest and Wizard, they both define the castSpell() method. 
 
 // - Challenge: 
 
@@ -80,5 +80,9 @@ joe.melee()
 // - Challenge: 
 
 // Modify both Wizard and Priest, they should inherit from SpellCaster instead of Player.
+
+// Your inheritence tree for Wizard should be: Player > SpellCaster > Wizard
+// Your inheritence tree for Priest should be: Player > SpellCaster > Wizard
+// Your inheritence tree for Fightewr should be: Player > Fighter
 
 
