@@ -47,10 +47,12 @@ frank.melee()
 
 // - Challenge: 
 
-// The Wizard and Priest cast spells instead of melee. Give them a castSpell() method.
+// The Wizard and Priest cast spells instead of melee. Give each of them a castSpell() method. This 
+// method should print "\(name) casts a spell"
 
 // - Challenge: 
 
-// Fighters have 8 hit points, Wizards should have 4, Priests should have 6.
+// Fighters have 8 hit points, Wizards should have 4, Priests should have 6. When you initialize the 
+// sub classes make sure that each sets it's hitpoints correctly. 
 
 
